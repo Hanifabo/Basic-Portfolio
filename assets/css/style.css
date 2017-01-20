@@ -33,11 +33,11 @@
 
 }
 
-h2{
+/*h2{
     color: #4aaaa5;
-   font-family: Arial, Helvetica, Helvetica, sans-serif
+   font-family: Arial, Helvetica, Helvetica, sans-serif;
     font-size: 28px;
-}
+}*/
 #aside{
   background-color: #33b5e5;
   color: #ffffff;
@@ -60,9 +60,14 @@ h4{
       max-width: 960px;
       margin: 0 auto;
     }
-    h2{
-        /*ackground-color: #4aaaa5;*/
+
+   h2{
+        font-size: 28px;
+        font-weight: bold;
         color: #4aaaa5;
+         font-family: Arial, Helvetica, Helvetica, sans-serif;
+         margin-top: 15px;
+         margin-bottom: 15px;
     }
 
     #menuheader li{
@@ -100,7 +105,6 @@ h4{
     background-color:  #4aaaa5;
     }
 
-
     #pgo{
       border-right: 1px solid #777777;
       border-left: 1px solid #777777;
@@ -118,7 +122,7 @@ h4{
       border: 1.5px solid #dddddd;
     }
 
-    #menu::after{
+  #menu::after{
     content: "";
     display: block;
       clear: both;
@@ -181,7 +185,8 @@ h4{
     p{
       color: #777777;
       font-size: 14px;
-      line-height: 200%;
+        font-family: arial,Helvetica, sans-serif;
+        line-height: 1.4em;
     }
 
     #menuheader ul{
@@ -209,8 +214,9 @@ h4{
         position: static;
         font-family: arial,Helvetica, sans-serif;
         position: relative;
-        top:30px;
+        top:41px;
         left: 50px;
+        font-size: 18px;
     }
 
     #name{
@@ -224,10 +230,10 @@ h4{
     }
 
     #menuheader{
-    top: 0px;
+    top: 15px;
       position: relative;
       margin-right: 0px;
-      background-color: white;
+      background-color: none;
       float: right;
       margin-right: 45px;
 
@@ -253,36 +259,13 @@ input[type="text"]{
   margin-right: 10px;
   margin-top: 5px;
   margin-left: 30px;
-  border: 1px solid #dddddd;
+  border: 1.5px solid #dddddd;
+}
+
+label[for="name"]{
 
 }
 
-input[type='text'] {
-
-}
-#frmN{
-  background-image: url(user-1.png);
-  background-position: 7px 7px;
-  background-repeat: no-repeat;
-  background-size: 21px 21px;
-  opacity: 0.3;
-}
-
-#frmE{
-  background-image: url(email.png);
-  background-position: 7px 7px;
-  background-repeat: no-repeat;
-  background-size: 21px 21px;
-  opacity: 0.3;
-}
-
-#frmM{
-  background-image: url(document-3.png);
-  background-position: 7px 7px;
-  background-repeat: no-repeat;
-  background-size: 21px 21px;
-  opacity: 0.3;
-}
 #sbm{
   width: 90px;
   height: 40px;
@@ -292,7 +275,8 @@ input[type='text'] {
   margin-left: 30px;
   margin-bottom: : 30px;
 }
-  .box{
+
+.box{
   width: 270px;
   height: 200px;
   float: left;
@@ -303,14 +287,23 @@ input[type='text'] {
   height: 50px;
   background-color: #4aaaa5;
   position: relative;
-  width: 269px;
-  top: 125px;
+  width: 270px;
+  top: 139px;
   }
 
 #bandName{
   font-weight: bold;
   color: white;
   text-align: center;
+}
+
+#bandName1{
+  font-weight: bolder;;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 105px;
+  font-size: 19px;
 }
 .pic1{
       background: url(../images/touch1.jpg);
@@ -371,7 +364,6 @@ input[type='text'] {
   height: 90px;
 }
 
-
 .row::after{
   content: "";
   clear: both;
@@ -390,6 +382,7 @@ input[type='text'] {
 }
 
  #fterCopy{
+   margin-top: 17px;
   font-size: 12px;
   color: white;
   text-align: center;
@@ -401,6 +394,15 @@ input[type='text'] {
   border: 1px solid white;
   margin: 15px;
   float: left;
+  display: inline;
+}
+
+#personal1{
+  width: 149px;
+  height: 130px;
+  border: 1px solid white;
+  margin: 15px;
+  float: right;;
   display: inline;
 }
 .push {
